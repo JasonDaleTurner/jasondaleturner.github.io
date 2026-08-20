@@ -65,6 +65,5 @@ ul.posts li {
 }
 
 :root {
-  --bg-color: #ffffff;
-  --text-color: #333333;
+	color-scheme: light dark;
 }
