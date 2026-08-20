@@ -14,6 +14,8 @@ body {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
+	background-color: light-dark(#ffffff, #000000);
+	color: light-dark(#000000, #ffffff);
 }
 nav ul, footer ul {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
