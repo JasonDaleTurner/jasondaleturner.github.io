@@ -10,28 +10,6 @@
     font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #121212;
-    --text-color: #f0f0f0;
-  }
-}
-
-[data-theme="light"] {
-  --bg-color: #ffffff;
-  --text-color: #333333;
-}
-
-[data-theme="dark"] {
-  --bg-color: #121212;
-  --text-color: #f0f0f0;
-}
-
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
 body {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
     margin: 60px auto;
