@@ -1,9 +1,15 @@
 @font-face {
-  font-family: "CooperHewitt-Light";
-  src: url("css/fonts/CooperHewitt-Light.eot");
-  src: url("css/fonts/CooperHewitt-Light.woff") format("woff"),
-       url("css/fonts/CooperHewitt-Light.svg#filename") format("svg");
+    font-family: 'Cooper Hewitt';
+    src: url('/css/fonts/CooperHewitt-Light.eot');
+    src: url('/css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
+        url('/css/fonts/CooperHewitt-Light.woff') format('woff'),
+        url('/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
+
 
 body {
     margin: 60px auto;
