@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Cooper Hewitt';
-    src: url('/css/fonts/CooperHewitt-Light.eot');
-    src: url('/css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
-        url('/css/fonts/CooperHewitt-Light.woff') format('woff'),
-        url('/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
+    src: url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.eot');
+    src: url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
+        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff') format('woff'),
+        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
