@@ -29,6 +29,7 @@ nav ul li, footer ul li {
 a {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
     text-decoration: underline dotted;
+    color: #333;
 }
 a:hover {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
