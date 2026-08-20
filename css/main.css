@@ -23,14 +23,17 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
 }
 a {
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     text-decoration: none;
     color: #999;
 }
 a:hover {
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     text-decoration: underline;
 }
 h1 {
@@ -44,15 +47,18 @@ p {
     color: #333;
 }
 footer {
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
 ul.posts { 
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
 ul.posts li {
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     list-style: none;
 }
