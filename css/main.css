@@ -16,7 +16,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'CooperHewitt-Light';
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -34,10 +34,10 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'CooperHewitt-Light';
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family:'CooperHewitt-Light';
+    font-family:'CooperHewitt-Light', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
