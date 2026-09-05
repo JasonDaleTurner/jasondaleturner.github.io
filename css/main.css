@@ -145,11 +145,11 @@ body {
     width: 70%;
 	background-color: #ffffff;
 	color: #000000;
-
+/*
 	@media (prefers-color-scheme: dark) {
 		background-color: #000000;
 		color: #ffffff;
-}
+}*/
 nav ul, footer ul {
     font-family:'Cooper Hewitt', 'Arial', 'Sans-Serif';
     padding: 0px;
