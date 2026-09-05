@@ -1,3 +1,132 @@
+@layer base, carouselAndMarkers, carouselArrows;
+
+@layer carouselAndMarkers {
+  .carousel {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    max-inline-size: 1200px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    scroll-marker-group: after;
+    &::scroll-marker-group {
+      width: 100%;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 20px 0;
+      justify-content: center;
+      z-index: 20;
+    }
+    div {
+      scroll-snap-stop: always;
+      scroll-snap-align: start;
+      &::scroll-marker {
+        display: block;
+        content: " ";
+        aspect-ratio: 1;
+        width: 24px;
+        border-radius: 50%;
+        border: 1px solid silver;
+        cursor: pointer;
+        background: transparent;
+        justify-content: center;
+        transition: background 0.5s ease-out;
+      }
+      &::scroll-marker:target-current {
+        background: white;
+      }
+      &::scroll-marker:where(:hover, :active, :focus) {
+        background: lightgray;
+      }
+    }
+    img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+  }
+}
+
+@layer carouselArrows {
+  .carousel {
+    anchor-name: --carousel;
+    &::scroll-button(inline-end),
+    &::scroll-button(inline-start) {
+      z-index: 1;
+      cursor: pointer;
+      position: absolute;
+      position-anchor: --carousel;
+      top: anchor(center);
+      inset-inline: anchor(start) anchor(end);
+      inline-size: 44px;
+      aspect-ratio: 1;
+      backdrop-filter: blur(5px);
+      border: 1px solid silver;
+      border-radius: 50%;
+      line-height: 1;
+      content: "";
+      background-color: rgb(255 255 255 / 0.5);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15.75 19.5 8.25 12l7.5-7.5' /%3E%3C/svg%3E%0A");
+      background-size: 24px 24px;
+      background-repeat: no-repeat;
+      background-position: center;
+      translate: 20px -50%;
+      transition: background-color 0.5s ease-out;
+    }
+
+    &::scroll-button(inline-end) {
+      top: anchor(center);
+      inset-inline: auto anchor(end);
+      content: "";
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m8.25 4.5 7.5 7.5-7.5 7.5' /%3E%3C/svg%3E%0A");
+      translate: -20px -50%;
+    }
+
+    &::scroll-button(inline-end):where(:hover, :focus, :active),
+    &::scroll-button(inline-start):where(:hover, :focus, :active) {
+      background-color: rgb(255 255 255);
+    }
+  }
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(#555, #222);
+    min-height: 100dvh;
+    margin: 0;
+    padding: 5vmin;
+  }
+}
+
+.warning {
+  background: #ffd503;
+  font-family: Helvetica, Arial, sans-serif;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+@supports (scroll-marker-group: after) {
+  .warning {
+    display: none;
+  }
+}
+
 @font-face {
     font-family: 'Cooper Hewitt';
     src: url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.eot');
