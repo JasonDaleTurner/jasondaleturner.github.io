@@ -118,7 +118,7 @@
         url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
         url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff') format('woff'),
         url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -148,7 +148,7 @@ nav ul, footer ul {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 nav ul li, footer ul li {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
