@@ -139,11 +139,14 @@ body {
     width: 70%;
 	background-color: #ffffff;
 	color: #000000;
+	font-weight: normal;
+}
 /*
 	@media (prefers-color-scheme: dark) {
 		background-color: #000000;
 		color: #ffffff;
 }*/
+
 nav ul, footer ul {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     padding: 0px;
@@ -154,41 +157,49 @@ nav ul li, footer ul li {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     display: inline;
     margin-right: 20px;
+	font-weight: normal;
 }
 a {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     text-decoration: underline dotted;
     color: #333;
+	font-weight: normal;
 }
 a:hover {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     text-decoration: underline;
+	font-weight: normal;
 }
 h1 {
     font-size: 3em;
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+	font-weight: normal;
 }
 p {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+	font-weight: normal;
 }
 footer {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+	font-weight: normal;
 }
 
 ul.posts { 
     font-family:'CooperHewitt-Light','Helvetica', 'sans-serif';
     margin: 20px auto 40px; 
     font-size: 1.5em;
+	font-weight: normal;
 }
 
 ul.posts li {
     font-family:'CooperHewitt-Light','Helvetica', 'sans-serif';
     list-style: none;
+	font-weight: normal;
 }
 
 /*
