@@ -122,17 +122,17 @@
     font-style: normal;
     font-display: swap;
 }
-
+/*
 * {
 	/*margin: 0;*/
 	padding: 0;
 }
-
+*/
 
 body {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 	background-color: #f2ede0;
 	color: #000000;
 	font-weight: normal;
