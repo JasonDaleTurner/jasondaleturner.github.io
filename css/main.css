@@ -122,10 +122,12 @@
     font-style: normal;
     font-display: swap;
 }
+/*
 * {
 	margin: 0;
 	padding: 0;
 }
+*/
 .imgbox {
 	display: grid;
 	height: 100%;
