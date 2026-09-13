@@ -209,6 +209,7 @@ ul.posts li {
     font-family:'CooperHewitt-normal','Helvetica', 'sans-serif';
     list-style: none;
 	font-weight: normal;
+	list-style-type: none;
 }
 
 /*
