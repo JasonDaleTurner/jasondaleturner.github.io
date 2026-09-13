@@ -113,11 +113,11 @@
 */
 @font-face {
     font-family: 'Cooper Hewitt';
-    src: 'css/fonts/CooperHewitt-Light.eot';
-    src: 'css/fonts/CooperHewitt-Light.eot?#iefix' format('embedded-opentype'),
-        'css/fonts/CooperHewitt-Light.woff2' format('woff2'),
-        'css/fonts/CooperHewitt-Light.woff' format('woff'),
-        'css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light' format('svg');
+    src: url('css/fonts/CooperHewitt-Light.eot');
+    src: url('css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/CooperHewitt-Light.woff2') format('woff2'),
+        url('css/fonts/CooperHewitt-Light.woff') format('woff'),
+        url('css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
     font-weight: light;
     font-style: normal;
     font-display: swap;
