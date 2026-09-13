@@ -115,8 +115,8 @@
     font-family: 'Cooper Hewitt';
     src: url('/fonts/CooperHewitt-Light.eot');
     src: url('/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/CooperHewitt-Light.woff2') format('woff2'),
-        url('/fonts/CooperHewitt-Light.woff') format('woff'),
+        url('/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
+        url('/css/fonts/CooperHewitt-Light.woff') format('woff'),
         url('/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
     font-weight: light;
     font-style: light;
