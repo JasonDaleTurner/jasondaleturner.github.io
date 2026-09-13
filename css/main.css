@@ -134,7 +134,7 @@ body {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     margin: 60px auto;
     width: 70%;
-	background-color: #ffffff;
+	background-color: #ededdf;
 	color: #000000;
 	font-weight: normal;
 }
@@ -168,11 +168,11 @@ a:hover {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     text-decoration: underline;
 	font-weight: normal;
-	font-size: 1.5em;
-    line-height: 1.4em;
+	font-size: 2em;
+    line-height: 1.8em;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
 	font-weight: normal;
 }
@@ -186,14 +186,14 @@ p {
 footer {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1em;
 	font-weight: normal;
 }
 
 ul.posts { 
     font-family:'CooperHewitt-normal','Helvetica', 'sans-serif';
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 2em;
 	font-weight: normal;
 }
 
