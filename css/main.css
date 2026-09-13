@@ -171,7 +171,6 @@ a {
 	font-weight: normal;
 	font-size: 1.5em;
     line-height: 1.4em;
-	display: block;
 }
 a:hover {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
@@ -179,7 +178,6 @@ a:hover {
 	font-weight: normal;
 	font-size: 1.5em;
     line-height: 1.4em;
-	display: block;
 }
 h1 {
     font-size: 3em;
