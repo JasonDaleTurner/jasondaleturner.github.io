@@ -169,11 +169,15 @@ a {
     text-decoration: underline dotted;
     color: #333;
 	font-weight: normal;
+	font-size: 1.5em;
+    line-height: 1.4em;
 }
 a:hover {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     text-decoration: underline;
 	font-weight: normal;
+	font-size: 1.5em;
+    line-height: 1.4em;
 }
 h1 {
     font-size: 3em;
