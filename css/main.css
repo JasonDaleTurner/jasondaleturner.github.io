@@ -1,3 +1,4 @@
+/.
 @layer base, carouselAndMarkers, carouselArrows;
 
 @layer carouselAndMarkers {
@@ -109,6 +110,7 @@
     display: none;
   }
 }
+*/
 
 @font-face {
     font-family: 'Cooper Hewitt';
