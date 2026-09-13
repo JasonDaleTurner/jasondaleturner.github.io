@@ -113,11 +113,11 @@
 */
 @font-face {
     font-family: 'Cooper Hewitt';
-    src: url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.eot');
-    src: url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
-        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
-        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.woff') format('woff'),
-        url('jasondaleturner.github.io/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
+    src: 'css/fonts/CooperHewitt-Light.eot';
+    src: 'css/fonts/CooperHewitt-Light.eot?#iefix' format('embedded-opentype'),
+        'css/fonts/CooperHewitt-Light.woff2' format('woff2'),
+        'css/fonts/CooperHewitt-Light.woff' format('woff'),
+        'css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light' format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
