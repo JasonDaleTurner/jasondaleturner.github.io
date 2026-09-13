@@ -161,8 +161,8 @@ a {
     text-decoration: underline dotted;
     color: #333;
 	font-weight: normal;
-	font-size: 11pt;
-    line-height: 11pt;
+	font-size: 2em;
+    line-height: 1.8em;
 }
 a:hover {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
@@ -178,8 +178,8 @@ h1 {
 }
 p {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
-    font-size: 11pt;
-    line-height: 11pt;
+    font-size: 2em;
+    line-height: 1.8em;
     color: #333;
 	font-weight: normal;
 }
