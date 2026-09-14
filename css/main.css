@@ -198,6 +198,9 @@ p + p {
 	padding-bottom:0;
 }
 
+figure figcaption {
+    text-align: center;
+}
 footer {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     border-top: 1px solid #d5d5d5;
