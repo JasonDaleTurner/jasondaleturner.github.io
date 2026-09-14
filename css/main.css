@@ -10,10 +10,9 @@
     scroll-snap-type: x mandatory;
     max-inline-size: 1200px;
     margin: 0 auto;
+	scrollbar-width: none;
     scroll-behavior: smooth;
     scroll-marker-group: after;
-	justify-content: center;
-	align-items: center;
     &::scroll-marker-group {
       width: 100%;
       display: flex;
@@ -23,7 +22,6 @@
       justify-content: center;
       z-index: 20;
     }
-	  isplay: flex;align-items: center;
     div {
       scroll-snap-stop: always;
       scroll-snap-align: start;
