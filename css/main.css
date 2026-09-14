@@ -41,7 +41,7 @@
         background: white;
       }
       &::scroll-marker:where(:hover, :active, :focus) {
-        background: normalgray;
+        background: gray;
       }
     }
     img {
@@ -63,11 +63,8 @@
 
 @font-face {
     font-family: 'Cooper Hewitt';
-    src: url('/css/fonts/CooperHewitt-Light.eot');
-    src: url('/css/fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
+    src: url('/css/fonts/CooperHewitt-Light.woff2') format('woff2'),
         url('/css/fonts/CooperHewitt-Light.woff') format('woff'),
-        url('/css/fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
