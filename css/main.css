@@ -3,7 +3,7 @@
 @layer carouselAndMarkers {
   .carousel {
     display: grid;
-    grid-auto-columns: 80%;
+    grid-auto-columns: 100%;
     grid-auto-flow: column;
     overflow-x: auto;
     overscroll-behavior-x: contain;
