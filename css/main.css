@@ -12,6 +12,8 @@
     margin: 0 auto;
     scroll-behavior: smooth;
     scroll-marker-group: after;
+	justify-content: center;
+	align-items: center;
     &::scroll-marker-group {
       width: 100%;
       display: flex;
@@ -21,6 +23,7 @@
       justify-content: center;
       z-index: 20;
     }
+	  isplay: flex;align-items: center;
     div {
       scroll-snap-stop: always;
       scroll-snap-align: start;
