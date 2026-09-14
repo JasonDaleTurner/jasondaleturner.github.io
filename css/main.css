@@ -186,6 +186,9 @@ p {
     color: #333;
 	font-weight: normal;
 }
+p + p { 
+margin-top:10px
+}
 footer {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     border-top: 1px solid #d5d5d5;
