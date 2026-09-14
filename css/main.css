@@ -9,7 +9,7 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     max-inline-size: 1200px;
-    margin: 0 auto;
+    margin: auto;
 	scrollbar-width: none;
     scroll-behavior: smooth;
     scroll-marker-group: after;
