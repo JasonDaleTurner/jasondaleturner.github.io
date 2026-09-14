@@ -103,12 +103,6 @@
 
 }
 
-@supports (scroll-marker-group: after) {
-  .warning {
-    display: none;
-  }
-}
-
 @font-face {
     font-family: 'Cooper Hewitt';
     src: url('/css/fonts/CooperHewitt-Light.eot');
