@@ -187,7 +187,8 @@ p {
 	font-weight: normal;
 }
 p + p { 
-margin-top:2px;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 footer {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
