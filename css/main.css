@@ -114,12 +114,6 @@
     font-style: normal;
     font-display: swap;
 }
-/*
-* {
-	margin: 0;
-	padding: 0;
-}
-*/
 
 body {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
@@ -129,11 +123,6 @@ body {
 	color: #000000;
 	font-weight: normal;
 }
-/*
-	@media (prefers-color-scheme: dark) {
-		background-color: #000000;
-		color: #ffffff;
-}*/
 
 nav ul, footer ul {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
