@@ -48,7 +48,6 @@
       width: 65%;
       aspect-ratio: 16/9;
       object-fit: contain;
-	  margin: auto;
     }
   }
 }
