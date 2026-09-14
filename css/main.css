@@ -118,6 +118,13 @@ h1 {
 margin-bottom: 0;
 padding-bottom: 0;
 }
+h2 {
+    font-size: 3em;
+    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+	font-weight: normal;
+margin-bottom: 0;
+padding-bottom: 0;
+}
 p {
     font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
     font-size: 2em;
