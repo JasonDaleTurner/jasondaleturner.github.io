@@ -185,6 +185,10 @@ p {
     line-height: 1.3em;
     color: #333;
 	font-weight: normal;
+	margin-top:10px;
+	margin-bottom:5px;
+	padding-top:0;
+	padding-bottom:0;
 }
 p + p { 
 	margin-top:5px;
