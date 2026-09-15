@@ -77,6 +77,10 @@
     margin-block: 10px 5px;
   }
 
+  .subtitle {
+    font-size: 1.7rem;
+  }
+
   p + p {
     margin-block: 5px;
   }
@@ -110,6 +114,7 @@
     h1 { font-size: 2.5rem; }
     h2 { font-size: 1.8rem; }
     p, a { font-size: 1.2rem; }
+    .subtitle { font-size: 1.4rem; }
   }
 }
 
@@ -175,7 +180,7 @@
       margin: auto;
     }
   }
-
+  
   .carousel-dots {
     display: none;
   }
