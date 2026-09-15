@@ -42,7 +42,7 @@
   a {
     color: #333;
     text-decoration: underline dotted;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.4;
   }
 
@@ -56,17 +56,17 @@
   }
 
   h1 {
-    font-size: 4em;
-    margin-bottom: 0;
-  }
-
-  h2 {
     font-size: 3em;
     margin-bottom: 0;
   }
 
-  p {
+  h2 {
     font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.5em;
     line-height: 1.3;
     color: #333;
     margin-block: 10px 5px;
@@ -102,9 +102,9 @@
       width: 92%;
       margin: 20px auto;
     }
-    h1 { font-size: 2.5em; }
-    h2 { font-size: 1.8em; }
-    p, a { font-size: 1.2em; }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.3em; }
+    p, a { font-size: 1em; }
   }
 }
 
@@ -169,5 +169,40 @@
       object-fit: contain;
       margin: auto;
     }
+  }
+
+  /* Fallback paging dots for browsers without native ::scroll-marker support */
+  .carousel-dots {
+    display: none;
+  }
+
+  @supports not selector(::scroll-marker) {
+    .carousel-dots {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+    }
+  }
+
+  .carousel-dots .dot {
+    display: block;
+    aspect-ratio: 1;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid silver;
+    background: transparent;
+    text-decoration: none;
+    transition: background 0.5s ease-out;
+  }
+
+  .carousel-dots .dot:hover,
+  .carousel-dots .dot:focus-visible {
+    background: gray;
+  }
+
+  .carousel-dots .dot.is-active {
+    background: white;
   }
 }
