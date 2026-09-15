@@ -71,7 +71,7 @@
 }
 
 body {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     margin: 40px auto;
     width: 80%;
 	background-color: #f2ede0;
@@ -80,19 +80,19 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: normal;
 }
 nav ul li, footer ul li {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     display: inline;
     margin-right: 20px;
 	font-weight: normal;
 }
 a {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     text-decoration: underline dotted;
     color: #333;
 	font-weight: normal;
@@ -101,7 +101,7 @@ a {
 	margin-top: 2rem;
 }
 a:hover {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     text-decoration: underline;
 	font-weight: normal;
 	font-size: 2rem;
@@ -110,20 +110,20 @@ a:hover {
 }
 h1 {
     font-size: 4em;
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
 	font-weight: normal;
 margin-bottom: 0;
 padding-bottom: 0;
 }
 h2 {
     font-size: 3em;
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
 	font-weight: normal;
 margin-bottom: 0;
 padding-bottom: 0;
 }
 p {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     font-size: 2em;
     line-height: 1.3em;
     color: #333;
@@ -145,21 +145,21 @@ figure figcaption {
     text-align: center;
 }
 footer {
-    font-family:'Cooper Hewitt','Helvetica', 'sans-serif';
+    font-family:'Cooper Hewitt',Helvetica, sans-serif;
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
 	font-weight: normal;
 }
 
 ul.posts { 
-    font-family:'CooperHewitt-normal','Helvetica', 'sans-serif';
+    font-family:'CooperHewitt-normal',Helvetica, sans-serif;
     margin: 20px auto 40px; 
     font-size: 2em;
 	font-weight: normal;
 }
 
 ul.posts li {
-    font-family:'CooperHewitt-normal','Helvetica', 'sans-serif';
+    font-family:'CooperHewitt-normal',Helvetica, sans-serif;
     list-style: none;
 	font-weight: normal;
 	list-style-type: none;
