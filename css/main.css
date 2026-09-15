@@ -141,10 +141,12 @@ p + p {
 	padding-bottom:0;
 }
 
+/*
 figure {
 	text-align: center;
 	margin: 0;
 }
+*/
 
 figure figcaption {
     text-align: center;
