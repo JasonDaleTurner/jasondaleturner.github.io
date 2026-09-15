@@ -133,6 +133,7 @@
     scrollbar-width: none;
     scroll-behavior: smooth;
     scroll-marker-group: after;
+    text-align: center;
 
     &::-webkit-scrollbar {
       display: none;
@@ -174,13 +175,12 @@
     }
 
     img {
-      width: 65%;
-      aspect-ratio: 16/9;
+      width: 72%;
+      aspect-ratio: 3/2;
       object-fit: contain;
-      margin: auto;
     }
   }
-  
+
   .carousel-dots {
     display: none;
   }
